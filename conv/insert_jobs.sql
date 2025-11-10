@@ -13,7 +13,7 @@ INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (1120, 112, 
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (11201, 1120, '기업 대표이사');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (11202, 1120, '기업 고위 임원');
  
-INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (12, , '행정‧경영 지원 및 마케팅 관리직');
+INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (12, NULL, '행정‧경영 지원 및 마케팅 관리직');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (121, 12, '행정 및 경영 지원 관리자');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (1211, 121, '정부 행정 관리자');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (12110, 1211, '정부 행정 관리자');
@@ -28,7 +28,7 @@ INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (1220, 122, 
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (12201, 1220, '마케팅 관리자');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (12202, 1220, '광고 및 홍보 관리자');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (12209, 1220, '그 외 마케팅 및 광고‧홍보 관리자');
-INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (13, , '전문 서비스 관리직');
+INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (13, NULL, '전문 서비스 관리직');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (131, 13, '연구‧교육 및 법률 관련 관리자');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (1311, 131, '연구 관리자');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (13111, 1311, '인문과학 연구 관리자');
@@ -77,7 +77,7 @@ INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (13903, 1390
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (13904, 1390, '인력 공급 및 알선 서비스 관리자');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (13905, 1390, '장비 및 기계임대 서비스 관리자');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (13909, 1390, '그 외 전문 서비스 관리자');
-INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (14, , '건설‧전기 및 생산 관련 관리직');
+INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (14,NULL, '건설‧전기 및 생산 관련 관리직');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (141, 14, '건설‧전기 및 생산 관련 관리자');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (1411, 141, '건설 및 광업 관련 관리자');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (14111, 1411, '건축 관련 관리자');
@@ -104,7 +104,7 @@ INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (1490, 149, 
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (14901, 1490, '농림어업 관련 관리자');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (14902, 1490, '수리 및 정비 관련 관리자');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (14909, 1490, '그 외 건설‧전기 및 생산 관련 관리자');
-INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (15, , '판매 및 고객 서비스 관리직');
+INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (15,NULL, '판매 및 고객 서비스 관리직');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (151, 15, '판매 및 운송 관리자');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (1511, 151, '영업 및 판매 관련 관리자');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (15111, 1511, '영업 관련 관리자');
@@ -416,7 +416,7 @@ INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (23954, 2395
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (23959, 2395, '그 외 제도사');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (2399, 239, '기타 공학 관련 기술자 및 시험원');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (23990, 2399, '그 외 공학 관련 기술자 및 시험원');
-INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (24, , '보건 전문가 및 관련직');
+INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (24,NULL, '보건 전문가 및 관련직');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (241, 24, '의사·한의사 및 치과의사');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (2411, 241, '전문 의사');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (24111, 2411, '내과 전문 의사');
@@ -498,7 +498,7 @@ INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (2496, 249, 
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (24960, 2496, '안마사');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (2497, 249, '환자안전 관리사');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (24970, 2497, '환자안전 관리사');
-INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (25, , '사회복지 ‧ 종교 전문가 및 관련직');
+INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (25,NULL, '사회복지 ‧ 종교 전문가 및 관련직');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (251, 25, '보육교사');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (2510, 251, '보육교사');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (25100, 2510, '보육교사');
@@ -529,7 +529,7 @@ INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (2549, 254, 
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (25491, 2549, '수녀 및 수사');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (25492, 2549, '전도사');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (25499, 2549, '그 외 종교 관련 종사원');
-INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (26, , '교육 전문가 및 관련직');
+INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (26,NULL, '교육 전문가 및 관련직');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (261, 26, '대학교수 및 강사');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (2611, 261, '대학교수');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (26111, 2611, '교육 분야 교수');
@@ -618,7 +618,7 @@ INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (2692, 269, 
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (26920, 2692, '대학 교육 조교');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (2699, 269, '기타 교사');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (26990, 2699, '그 외 교사');
-INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (27, , '법률 및 행정 전문직');
+INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (27,NULL, '법률 및 행정 전문직');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (271, 27, '법률 전문가');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (2711, 271, '판사 및 검사');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (27111, 2711, '판사');
@@ -936,7 +936,7 @@ INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (35230, 3523
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (3529, 352, '기타 정부 행정 사무원');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (35290, 3529, '그 외 정부 행정 사무원');
  
-INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (36, , '상담‧안내 및 접수 사무직');
+INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (36,NULL, '상담‧안내 및 접수 사무직');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (361, 36, '여행‧안내 및 접수 사무원');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (3611, 361, '여행 사무원');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (36110, 3611, '여행 사무원');
@@ -955,7 +955,7 @@ INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (36204, 3620
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (36205, 3620, '중개 사무원');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (36206, 3620, '취업 알선원');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (36209, 3620, '그 외 고객 상담 사무원');
-INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (37, , '일반 지원 사무직');
+INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (37,NULL, '일반 지원 사무직');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (371, 37, '총무 사무원 및 대학 행정조교');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (3710, 371, '총무 사무원 및 대학 행정조교');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (37101, 3710, '총무 사무원');
@@ -1242,7 +1242,7 @@ INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (61394, 6139
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (61395, 6139, '동물원 사육사');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (61399, 6139, '그 외 축산 및 사육 관련 종사원');
  
-INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (62, , '임업 숙련직');
+INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (62,NULL, '임업 숙련직');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (620, 62, '임업 관련 종사자');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (6201, 620, '조림‧산림 경영인 및 벌목원');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (62011, 6201, '조림원 및 산림 경영인');
@@ -1250,7 +1250,7 @@ INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (62012, 6201
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (6209, 620, '기타 임업 관련 종사원');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (62091, 6209, '임산물 채취원');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (62099, 6209, '그 외 임업 관련 종사원');
-INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (63, , '어업 숙련직');
+INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (63,NULL, '어업 숙련직');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (630, 63, '어업 관련 종사자');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (6301, 630, '양식원');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (63011, 6301, '어패류 양식원');
@@ -1357,7 +1357,7 @@ INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (7406, 740, 
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (74061, 7406, '가스 용접원');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (74062, 7406, '전기 용접원');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (74069, 7406, '그 외 용접원');
-INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (75, , '운송 및 기계 관련 기능직');
+INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (75,NULL, '운송 및 기계 관련 기능직');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (751, 75, '자동차 정비원');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (7510, 751, '자동차 정비원');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (75101, 7510, '자동차 엔진 정비원');
@@ -1417,7 +1417,7 @@ INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (75379, 7537
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (7539, 753, '농업용‧기타 기계장비 설치 및 정비원');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (75391, 7539, '농업용 기계 설치 및 정비원');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (75399, 7539, '그 외 기계장비 설치 및 정비원');
-INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (76, , '전기 및 전자 관련 기능직');
+INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (76,NULL, '전기 및 전자 관련 기능직');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (761, 76, '전기‧전자기기 설치 및 수리원');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (7611, 761, '사무용 전자기기 설치 및 수리원');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (76110, 7611, '사무용 전자기기 설치 및 수리원');
@@ -1453,7 +1453,7 @@ INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (76232, 7623
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (76233, 7623, '전기 케이블 접속원');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (76234, 7623, '철도 고가 전선 가설원');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (76239, 7623, '그 외 외선 전기원');
-INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (77, , '정보 통신 및 방송장비 관련 기능직');
+INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (77,NULL, '정보 통신 및 방송장비 관련 기능직');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (771, 77, '정보 통신기기 설치 및 수리원');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (7711, 771, '컴퓨터 설치 및 수리원');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (77110, 7711, '컴퓨터 설치 및 수리원');
@@ -1472,7 +1472,7 @@ INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (7723, 772, 
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (77231, 7723, '통신 케이블 설치 및 수리원');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (77232, 7723, '방송 케이블 설치 및 수리원');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (77233, 7723, '인터넷 케이블 설치 및 수리원');
-INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (78, , '건설 및 채굴 관련 기능직');
+INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (78,NULL, '건설 및 채굴 관련 기능직');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (781, 78, '건설 구조 관련 기능 종사자');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (7811, 781, '강구조물 가공원 및 건립원');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (78111, 7811, '강구조물 가공원');
@@ -1540,7 +1540,7 @@ INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (78492, 7849
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (78493, 7849, '삭구원 및 케이블 접속원');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (78494, 7849, '천일염 생산 종사원');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (78499, 7849, '그 외 채굴 및 토목 관련 종사원');
-INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (79, , '기타 기능 관련직');
+INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (79,NULL, '기타 기능 관련직');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (791, 79, '공예 및 귀금속 세공원');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (7911, 791, '공예원');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (79111, 7911, '도자 공예원');
@@ -1852,7 +1852,7 @@ INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (8750, 875, 
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (87501, 8750, '선박부원');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (87502, 8750, '등대원');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (87509, 8750, '그 외 선박 관련 승무원');
-INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (88, , '상하수도 및 재활용 처리 관련 기계 조작직');
+INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (88,NULL, '상하수도 및 재활용 처리 관련 기계 조작직');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (881, 88, '상하수도 처리 장치 조작원');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (8810, 881, '상하수도 처리 장치 조작원');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (88101, 8810, '펌프 장치 조작원');
@@ -1864,7 +1864,7 @@ INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (8820, 882, 
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (88201, 8820, '재활용 처리 기계 조작원');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (88202, 8820, '소각로 조작원');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (88209, 8820, '그 외 재활용 처리 및 소각로 조작원');
-INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (89, , '목재‧인쇄 및 기타 기계 조작직');
+INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (89,NULL, '목재‧인쇄 및 기타 기계 조작직');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (891, 89, '목재 및 종이 관련 기계 조작원');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (8911, 891, '목재 가공 관련 기계 조작원');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (89111, 8911, '제재기 조작원');
@@ -1935,7 +1935,7 @@ INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (92291, 9229
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (92299, 9229, '그 외 배달원');
  
  
-INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (93, , '제조 관련 단순 노무직');
+INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (93,NULL, '제조 관련 단순 노무직');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (930, 93, '제조 관련 단순 종사자');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (9301, 930, '가구 조립원');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (93010, 9301, '가구 조립원');
@@ -1944,7 +1944,7 @@ INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (93091, 9309
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (93092, 9309, '수동 상표 부착원');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (93093, 9309, '제품 단순 선별원');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (93099, 9309, '그 외 제조 관련 단순 종사원');
-INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (94, , '청소 및 건물 관리 단순 노무직');
+INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (94,NULL, '청소 및 건물 관리 단순 노무직');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (941, 94, '청소 관련 종사자');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (9411, 941, '건물 청소원');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (94110, 9411, '건물 청소원');
@@ -1965,7 +1965,7 @@ INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (9420, 942, 
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (94201, 9420, '아파트 경비원');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (94209, 9420, '그 외 건물 관리원');
  
-INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (95, , '가사‧음식 및 판매 관련 단순 노무직');
+INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (95,NULL, '가사‧음식 및 판매 관련 단순 노무직');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (951, 95, '가사 및 육아 도우미');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (9511, 951, '가사 도우미');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (95110, 9511, '가사 도우미');
@@ -1983,7 +1983,7 @@ INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (9539, 953, 
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (95391, 9539, '매장 정리원');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (95392, 9539, '전단지 배포원 및 벽보원');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (95399, 9539, '그 외 판매 관련 단순 종사원');
-INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (99, , '농림어업 및 기타 서비스 단순 노무직');
+INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (99,NULL, '농림어업 및 기타 서비스 단순 노무직');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (991, 99, '농림어업 관련 단순 종사자');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (9911, 991, '농업 관련 단순 종사원');
 INSERT INTO job_categories (job_id, parent_job_id, job_name) VALUES (99110, 9911, '농업 관련 단순 종사원');
